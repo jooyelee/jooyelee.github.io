@@ -40,19 +40,13 @@ def solution(input_str):
 solution(input_str) # 44ms
 ```
 
-    0:00:00
-    
-
-
-
-
     True
 
 
 
 
+##### deque를 활용해 빠르게 해보자
 ```python
-# deque를 활용해 빠르게 해보자
 
 import collections
 #print(collections.__all__)
@@ -78,9 +72,9 @@ solutions(input_str) # 이게 5배 더 빠름
 
 
 
-
+##### 슬라이싱 사용해보자 []
 ```python
-# 슬라이싱 사용해보자 []
+
 import re
 
 def solutionss(s:str)->bool:
@@ -158,10 +152,9 @@ deque.__dict__
 [leetcode 344]("https://leetcode.com/problems/reverse-string/")
 
 
+##### 문자열 슬라이싱 & reverse()
 ```python
 input_str = ["h","e","l","l","o"]
-
-# 문자열 슬라이싱 & reverse()
 
 def solution(s: list())->None:
     s.reverse()
@@ -260,10 +253,8 @@ Note:
 * Words only consist of letters, never apostrophes or other punctuation symbols.
 
 
-
+##### Counter 가지고 풀기
 ```python
-# Counter 가지고 풀기
-
 from collections import Counter
 import re
 
@@ -335,9 +326,8 @@ Counter.__dict__
 
 
 
-
+##### list comprehension & counter
 ```python
-# list comprehension & counter
 
 def solution(para,banned):
      
@@ -359,10 +349,8 @@ solution(para2,banned) # 차이는 없음
 
 
 
-
+##### list comprehension & default dict
 ```python
-# list comprehension & default dict
-
 from collections import defaultdict
 
 def solution(para,banned):
