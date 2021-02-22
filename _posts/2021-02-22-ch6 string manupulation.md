@@ -1,7 +1,9 @@
------------------------------
-title: ch6 문자열 조작
-tag: algorithm
------------------------------
+---
+title: "python algorithm interview chapter 6: string"
+tags: [algorithm, string, 문자열]
+---
+
+
 
 # 6장 문자열 조작
 
